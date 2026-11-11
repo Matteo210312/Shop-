@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Markenname – Demo-Shop</title>
+<meta name="description" content="Demo-Shop: Ausgewählte Produkte für den Alltag.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+<div class="demo-bar">Demo-Version – keine echten Bestellungen oder Zahlungen.</div>
+<header class="site-header">
+  <a class="logo" href="#/" id="logo">Markenname</a>
+  <nav aria-label="Hauptnavigation">
+    <a href="#/shop">Shop</a><a href="#/page/ueber">Über uns</a><a href="#/page/kontakt">Kontakt</a>
+  </nav>
+  <form class="search" id="searchForm" role="search">
+    <label class="sr" for="q">Produkte suchen</label>
+    <input id="q" type="search" placeholder="Suchen" autocomplete="off">
+  </form>
+  <a class="cart-link" href="#/cart" aria-label="Warenkorb">Warenkorb <span id="cartCount">0</span></a>
+</header>
+<main id="main" tabindex="-1"></main>
+<footer class="site-footer">
+  <div class="foot-grid">
+    <div><strong id="footBrand">Markenname</strong><p>Platzhalter-Marke. Texte und Daten sind Demo-Inhalte.</p></div>
+    <div><strong>Shop</strong><a href="#/shop">Alle Produkte</a><a href="#/cart">Warenkorb</a></div>
+    <div><strong>Informationen</strong><a href="#/page/versand">Versand</a><a href="#/page/rueckgabe">Rückgabe und Widerruf</a><a href="#/page/kontakt">Kontakt</a></div>
+    <div><strong>Rechtliches</strong><a href="#/page/impressum">Impressum</a><a href="#/page/datenschutz">Datenschutz</a><a href="#/page/agb">AGB</a></div>
+  </div>
+</footer>
+<script src="products.js"></script>
+<script src="legal.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
